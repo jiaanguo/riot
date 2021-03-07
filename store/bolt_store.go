@@ -17,7 +17,7 @@ package store
 import (
 	"time"
 
-	bolt "go.etcd.io/bbolt"
+	bolt "github.com/coreos/bbolt"
 )
 
 var gdocs = []byte("gdocs")
